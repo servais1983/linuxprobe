@@ -1,0 +1,10 @@
+name: Collecte complète Linux
+steps:
+  - module: volatile
+  - module: systeminfo
+  - module: filesystem
+  - module: users
+  - module: network
+  - module: packages
+  - module: cron
+  - module: hashing
